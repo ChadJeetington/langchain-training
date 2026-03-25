@@ -10,7 +10,7 @@ Jupyter notebooks for working through LangChain tutorials (models/prompts/parser
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate   # Windows: .venv\Scripts\activate
-   pip install python-dotenv anthropic langchain langchain-anthropic langchain-core tiktoken
+   pip install python-dotenv anthropic langchain langchain-classic langchain-anthropic langchain-community langchain-core tiktoken
    ```
 
 3. Copy `.env.example` to `.env` and set `ANTHROPIC_API_KEY`.
